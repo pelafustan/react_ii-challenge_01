@@ -23,6 +23,7 @@ export default function Navbar() {
       </div>
       <Menu
         theme="dark"
+        defaultSelectedKeys={["/"]}
         mode="horizontal"
         items={navigation}
         onClick={handleMenuClick}
