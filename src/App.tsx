@@ -1,5 +1,5 @@
 import { Layout, theme } from "antd";
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./views/Home";
 import Contact from "./views/Contact";
@@ -22,7 +22,7 @@ export default function App() {
         >
           <Navbar />
         </Layout.Header>
-        <Layout.Content 
+        <Layout.Content
           style={{
             background: colorBgContainer,
             padding: "0 50px:",
