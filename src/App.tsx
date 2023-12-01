@@ -43,6 +43,7 @@ export default function App() {
             />
           </Routes>
         </Layout.Content>
+        <Layout.Footer></Layout.Footer>
       </Layout>
     </>
   );
