@@ -53,6 +53,16 @@ export default function Contact() {
             allowClear
           />
         </Form.Item>
+        <Form.Item
+          wrapperCol={{ offset: 8, span: 8}}
+        >
+          <Button
+            type="primary"
+            htmlType="submit"
+          >
+            Submit
+          </Button>
+        </Form.Item>
       </Form>
     </>
   );
