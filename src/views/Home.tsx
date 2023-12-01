@@ -17,12 +17,15 @@ export default function Home() {
     },
   ];
 
-  return(
-    <Tabs
-      defaultActiveKey="1"
-      type="card"
-      tabPosition="left"
-      items={items}
-    />
+  return (
+    <>
+      <h1 style={{ paddingTop: "2rem" }}>Our Products</h1>
+      <Tabs
+        defaultActiveKey="1"
+        type="card"
+        tabPosition="left"
+        items={items}
+      />
+    </>
   )
 }
