@@ -13,7 +13,7 @@ The requirements must be fulfilled using `react-router-dom`.
 
 ### Preview
 
-You can see terrific piece of code [here](https://pelafustan.github.io/react_ii-challenge_01/).
+You can see this terrific piece of code [here](https://pelafustan.github.io/react_ii-challenge_01/).
 
 ### Author
 
