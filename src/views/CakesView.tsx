@@ -1,14 +1,8 @@
 import { useEffect, useState } from "react";
 import { List, Card, Typography } from "antd";
+import { Pie } from "../utils/utils";
 
 export default function PiesView() {
-  type Pie = {
-    id: number;
-    title: string;
-    image: string;
-    imageType: string;
-  };
-
   const [loading, setLoading] = useState(false);
   const [cakes, setCakes] = useState();
   useEffect(() => {
